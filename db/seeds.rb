@@ -16,7 +16,7 @@ Restaurant.destroy_all
   restaurant = Restaurant.create!(
     name: Faker::Restaurant.name, #=> "Curry King"
     address: Faker::Address.street_address, #=> "address"
-    phone_nbumber: Faker::PhoneNumber.phone_number, #=> "444 222 xx xx."
+    phone_number: Faker::PhoneNumber.phone_number, #=> "444 222 xx xx."
     category: Restaurant::CATOGORIES.sample
   )
 
